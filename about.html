@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Irene's Tech Compendium</title>
+  <link rel="stylesheet" 
+     href="https://cdn.datatables.net/2.3.5/css/dataTables.dataTables.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <span class="code-icon">💻</span>
+                <h1>Irene's Tech Compendium</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="login.html" class="btn btn-nav">Get Started</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                 
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="contact.html" class="mobile-link">Contact</a>
+        <a href="login.html" class="mobile-link">Get Started</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <h1>About Irene's Tech Compendium</h1>
+        <p>Empowering tech professionals with comprehensive knowledge</p>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="container">
+            <div class="about-section">
+                <h2>Our Mission</h2>
+                <p>Irene's Tech Compendium is dedicated to helping developers, engineers, and tech professionals master technical terminology. We believe that understanding the language of technology is fundamental to becoming an expert in your field.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Why We Built This</h2>
+                <p>We recognized that technical knowledge is often scattered across multiple sources, making it difficult for learners to build a cohesive understanding. Tech Compendium brings everything together in one organized, searchable platform where you can:</p>
+                <ul class="about-list">
+                    <li>Build and maintain your personal technical glossary</li>
+                    <li>Learn from comprehensive definitions and real-world examples</li>
+                    <li>Organize terms by category and complexity level</li>
+                    <li>Export your knowledge for offline learning or sharing</li>
+                    <li>Access your data securely from anywhere</li>
+                </ul>
+            </div>
+
+            <div class="about-section">
+                <h2>Key Features</h2>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-number">01</span>
+                        <h3>Comprehensive Database</h3>
+                        <p>Access thousands of technical terms across programming, web development, databases, cloud computing, and more.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">02</span>
+                        <h3>Advanced Search & Filtering</h3>
+                        <p>Find exactly what you're looking for with powerful search capabilities and category filters.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">03</span>
+                        <h3>Easy Export</h3>
+                        <p>Download your learning materials as CSV or document files for offline access.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">04</span>
+                        <h3>Data Persistence</h3>
+                        <p>Your data is securely stored and accessible anytime, anywhere.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>📚 Knowledge</h3>
+                        <p>We're committed to providing accurate, comprehensive technical information.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🚀 Innovation</h3>
+                        <p>We continuously improve our platform with new features and capabilities.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🤝 Community</h3>
+                        <p>We support learners at all levels in their technical journey.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🔒 Security</h3>
+                        <p>Your data privacy and security are our top priorities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>Get Started Today</h2>
+                <p>Join thousands of tech professionals using Tech Compendium to enhance their technical knowledge and career growth.</p>
+                <a href="login.html" class="btn btn-primary btn-large">Start Learning Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Tech Compendium</h4>
+                <p>Your comprehensive guide to technical terminology and knowledge management.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="login.html">Dashboard</a></li>
+                    <li><a href="#">Export & Download</a></li>
+                    <li><a href="#">Search & Filter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Irene's Tech Compendium. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.5/js/dataTables.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
